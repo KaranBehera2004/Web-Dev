@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+*
+ {   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Merriweather' ,sans-serif;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #375E97;
+    
+    box-shadow: 5px 5px 5px orange;
+}
+.rightnav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-right: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.9;
+}
+.leftnav
+{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+a:hover
+{
+    scale: 1.2;
+    color: orange;
+}
+/* main content start*/
+.parentcontent{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.button
+{
+    display: flex;
+    gap: 70px;
+    
+}
+.Hire
+{
+    height: 70px;
+    width: 175px;
+    background-color:  #FFBB00;
+    font-size: 22px;
+    border-radius: 8px;
+    transition: all 0.8s;
+}
+.Hire:hover
+{
+    scale: 1.1;
+    background-color:#375E97 ;
+    color: orange;
+}
+.cv
+{
+    border: 2px solid black;
+    height: 70px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #375E97;
+    color: #FFBB00;
+    font-size: 25px;
+    transition: all 0.8s;
+}
+.cv:hover
+{
+    background-color: orange;
+    color: #375E97;
+    scale: 1.1;
+}
+.leftcontent
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size:30px;
+}
+span
+{
+    color: #FB6542;
+}
+.fp
+{
+    font-size: 40px;
+}
+.logo
+{
+    display: flex;
+    gap: 30px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    transition: all 0.8s;
+}
+img:hover
+{
+    scale: 1.;
+}
+
+.pimage
+{
+    padding-right: 200px;
+}
+
+/* main content end*/

@@ -1,0 +1,39 @@
+select : select is used for selection (drop-down). it can be used for single or multiple selection . each choice is named under a tag 
+"optio. all option are eithin tag "select"
+select contains name attribure and options contain value attributes 
+e.g <select name="state">
+        <option value="KN">Karnatak</option>
+        <option value="MR">Maharsatra</option>
+        <option value="AP">Andrapradesh</option>
+        <option value="TE">Telengana</option>
+        <option value="BI">Bihar</option>
+        <option value="OD">Odisha</option>
+    </select>
+
+    we can group optionsby using "optgroup" 
+
+
+
+    Form validation :
+
+    forms can be validated directly in HTML by using following attributes.
+
+    1. required : it is used to make an input/select as required to submit for form submition.
+    2. minlength: it is used to assign minimum number of characters the value should have
+    3. maxkength: it is used to assign maximum number of shold have
+    4. min: itis usedto assign minimi value user has to enter
+    5. max: it is used to assign maximum value user has to enter
+    6. disabled: it is used to make inputs disabled
+    7. readonly: it is used to make input only readable. you cannot change the value.
+
+
+    Regular Expression:
+
+    A regex is string of characters the defines the pattern. it is used to match ,validate and extract data from text.
+    usually regxt starts with ^ and ends with $ .
+
+    [] : it is used for groups
+    e.g [A-Z],[a-z],[A-Z0-9]
+    {} : these are usedfor range
+    eg: [A-Z] {3}-- accepts only 3 capital letters
+        [A-Z]{3,}--- accepts minimum 3 capital letters 

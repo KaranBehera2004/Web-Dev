@@ -1,0 +1,9 @@
+div{
+    height: 500px;
+    width: 300px;
+    background-color: red;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 45%;
+    margin-left: 0px;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}

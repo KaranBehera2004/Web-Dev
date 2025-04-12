@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: bouncing-ball 5s ease infinite reverse,
+    change-color 5s ease infinite reverse;
+}
+.line
+{
+    height: 510px;
+    width: 120px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.inner
+{
+    height: 10px;
+    width: 100px;
+    background-color: red;
+    
+}
+
+@keyframes bouncing-ball
+{
+    10%
+    {
+        border-radius: 50%;
+    }
+    50%
+    {
+        transform: translateX(500px);
+        border-radius: 50%;
+    }
+    60%
+    {
+        transform: translateY(500px);
+        background-color: green;
+    }
+    70%
+    {
+        transform: translateY(500px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+        border-radius: 50%;
+    }
+}
+@keyframes change-color
+{
+    20%
+    {
+        background-color: yellow;
+    }
+    40%
+    {
+        background-color: green;
+    }
+    60%
+    {
+        background-color: cyan;
+    }
+    80%
+    {
+        background-color: white;
+    }
+    100%
+    {
+        background-color: blue;
+    }
+}
