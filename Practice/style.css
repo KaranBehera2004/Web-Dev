@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+
+}
+.parentnav
+{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+.childnav1
+{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}

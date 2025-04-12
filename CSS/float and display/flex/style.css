@@ -1,0 +1,14 @@
+.main
+{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    float: right;
+    clear: right;
+}
+.img
+{
+    height: 150px;
+    width: 100px;
+    float: left;
+}

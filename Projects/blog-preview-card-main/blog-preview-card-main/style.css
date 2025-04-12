@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(237, 215, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 520px;
+    width: 370px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+img
+{
+    height: 200px;
+    width: 380px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 50px;
+    width: 100px;
+}

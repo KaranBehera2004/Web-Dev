@@ -1,0 +1,41 @@
+.parent
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+    color: rgb(17, 13, 13);
+    display: block;
+    font-size: 10px;
+}
+.child1
+{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    margin-bottom: 5px;
+}
+
+.child2
+{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    margin-bottom: 5px;
+}
+
+.child3
+{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    margin-bottom: 5px;
+}
+
+.child4
+{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    margin-bottom: 5px;
+}
